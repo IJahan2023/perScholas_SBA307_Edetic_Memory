@@ -1,0 +1,59 @@
+*{
+    margin: 3px;
+    padding: 3px;
+}
+
+body{
+    background-image: url("/Users/jahan2020/Documents/perScholas/HTML/1.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 109vh;
+    color: #150636;
+    font-family: Georgia;
+}
+
+.navbar{
+    height: 75px;
+    margin: auto;
+    float: right;
+}
+
+.menu{
+    width: 550px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-top: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+#navA{
+    text-decoration: none;
+    color: #2e0d75;
+    font-family: Georgia;
+    font-weight: bold;
+    transition: (0.4s ease-in-out);
+    overflow: hidden;
+}
+
+#navA:hover{
+    background-color: rgb(71, 182, 223);
+    color:rgb(12, 61, 105);
+}
+
+#navA.active{
+    background-color: blue;
+    color: aliceblue;
+}
